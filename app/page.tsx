@@ -628,16 +628,7 @@ export default function PrettyParkwayEditorialPage() {
         
         {/* Ambient Video Background with Clean Dark Vignette (No Muddy Brown Wash) */}
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster="/salon_suite.jpg"
-            className="w-full h-full object-cover opacity-90 scale-100"
-          >
-            <source src="/hero.mp4" type="video/mp4" />
-          </video>
+          <img src="/hero_bg.jpg" alt="Pretty Parkway Frisco" className="w-full h-full object-cover opacity-85 scale-105 transition-transform duration-1000" />
           {/* Crisp, cinematic neutral vignette gradient matching FueGenix */}
           <div className="absolute inset-0 bg-gradient-to-b from-black/75 via-black/20 to-[#0C0908]" />
           {/* Subtle champagne-gold ambient light in top right */}
