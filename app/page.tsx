@@ -2205,7 +2205,7 @@ export default function PrettyParkwayEditorialPage() {
               <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden border border-white/10 mb-3 bg-[#1A1412]">
                 <iframe
                   title="Pretty Parkway Location"
-                  src="https://maps.google.com/maps?q=5454+Surrey+Path,+Suite+207,+Frisco,+TX+75034&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106889.37554900595!2d-96.8867512!3d33.1228381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1592f947f487%3A0x8e3759f78cb02dbc!2sPretty%20Parkway!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
                   className="w-full h-full border-0 opacity-80 hover:opacity-100 transition-opacity"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
